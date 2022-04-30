@@ -1,5 +1,5 @@
-import Demo from './component/Demo';
 import Header from './component/Header';
+import HeaderWhite from './component/HeaderWhite';
 import Team from './component/Team';
 import './index.css';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
      
-     <Demo></Demo>
+     <HeaderWhite></HeaderWhite>
      <Header></Header>
      <Team></Team>
 
