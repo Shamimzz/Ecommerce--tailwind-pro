@@ -1,5 +1,6 @@
 import Header from './component/Header';
 import HeaderWhite from './component/HeaderWhite';
+import HeroTitle from './component/HeroTitle';
 import HomeWithHero from './component/HomeWithHero';
 import Team from './component/Team';
 import './index.css';
@@ -12,6 +13,8 @@ function App() {
      <HeaderWhite></HeaderWhite>
      <Header></Header>
      <Team></Team>
+     <HeroTitle></HeroTitle>
+     {/* <From></From> */}
 
     </div>
   );
