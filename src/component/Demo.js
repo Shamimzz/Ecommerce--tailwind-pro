@@ -10,7 +10,7 @@ const Demo = () => {
 
 
     return (
-        <div>
+        <div className='w-96 mx-auto'>
 
           <button class="btn-green">Message</button>
 

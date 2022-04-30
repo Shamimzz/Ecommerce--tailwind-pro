@@ -28,11 +28,11 @@ const people = [
 const Team = () => {
 
 
-    
+
     return (
-        <div className='mx-auto'>
+        <div className='mx-auto w-96 mt-12'>
             <h1>Tram Member</h1>
-            <ul className="divide-y divide-gray-200">
+    <ul className="divide-y divide-gray-200">
       {people.map((person) => (
         <li key={person.email} className="py-4 flex">
           <img className="h-10 w-10 rounded-full" src={person.image} alt="" />
