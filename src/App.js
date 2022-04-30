@@ -1,15 +1,15 @@
 import Demo from './component/Demo';
+import Header from './component/Header';
+import Team from './component/Team';
 import './index.css';
 
 function App() {
   return (
     <div className="App">
-
-      <p className="text-3xl font-bold underline">
-        Hello world!
-      </p>
      
      <Demo></Demo>
+     <Header></Header>
+     <Team></Team>
 
     </div>
   );
