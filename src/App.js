@@ -2,6 +2,7 @@ import CategoryFilter from './component/CategoryFilter';
 import Header from './component/Header';
 import HeaderWhite from './component/HeaderWhite';
 import HeroTitle from './component/HeroTitle';
+import Home from './component/Home';
 import HomeWithHero from './component/HomeWithHero';
 import Navbar from './component/Navbar';
 import ProductOverview from './component/ProductOverview';
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
      
      <HomeWithHero></HomeWithHero>
+     <Home></Home>
      <Navbar></Navbar>
      <HeaderWhite></HeaderWhite>
      <Header></Header>
