@@ -1,4 +1,5 @@
 import CategoryFilter from './component/CategoryFilter';
+import Explore from './component/Explore';
 import Header from './component/Header';
 import HeaderWhite from './component/HeaderWhite';
 import HeroTitle from './component/HeroTitle';
@@ -14,7 +15,6 @@ import './index.css';
 function App() {
   return (
     <div className="App">
-     
      <HomeWithHero></HomeWithHero>
      <Home></Home>
      <Navbar></Navbar>
@@ -27,7 +27,7 @@ function App() {
      <ProductOverview></ProductOverview>
      <CategoryFilter></CategoryFilter>
      <Quickview></Quickview>
-
+     <Explore></Explore>
     </div>
   );
 }
